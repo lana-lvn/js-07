@@ -176,3 +176,54 @@ h3 {
   color: white;
   margin-top: 16px;
 }
+
+#controls {
+  width: 486px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#controls > input {
+  width: 150px;
+  height: 40px;
+  border: 1px rgba(128, 128, 128, 1) solid;
+  border-radius: 8px;
+  text-align: center;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-right: 16px;
+}
+
+#controls > button {
+  width: 120px;
+  height: 40px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.create {
+  background-color: rgba(78, 117, 255, 1);
+  margin-right: 16px;
+}
+.destroy {
+  background-color: rgba(255, 78, 78, 1);
+}
+
+.destroy:hover {
+  background-color: rgba(255, 112, 112, 1);
+}
+
+#boxes {
+  margin-top: 44px;
+  display: flex;
+  flex-direction: row;
+  gap: 44px;
+  flex-wrap: wrap;
+}
